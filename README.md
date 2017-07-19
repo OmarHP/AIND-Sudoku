@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: *The naked twins problem checks if two boxes in a unit have the same length-two set of possible values, for example if A1 and A5 have 3 and 4 as posible values they are said to be twins, the algorithm remove these values from other peers' posibilities since just twins can be assigned to, this could lead to new naked twins and so on.*
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: *Diagonal sudoku problem is just an extension of typical sudoku, the algorithm works the same way, we just need to add two more units (due to diagonal constraint) one for each diagonal which also implies that some boxes now have more than 22 peers but it does not affect in anything.*
 
 ### Install
 
